@@ -6,11 +6,6 @@ export interface ContactItem {
 }
 
 export const contactData: ContactItem[] = [
-    // {
-    //     label: 'Telp',
-    //     value: '0813-8507-8633',
-    //     href: 'https://wa.me/6281385078633',
-    // },
     {
         label: 'Email',
         value: 'faisal2017bahi@gmail.com',

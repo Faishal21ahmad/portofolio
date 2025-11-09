@@ -6,14 +6,13 @@ export const projectsData: projectsItem[] = [
         title: 'NFC Card Read & Write',
         category: 'Personal Project',
         year: 2025,
-        description: 'Project penasaran kartu NFC berbasis web untuk membaca dan menulis data pada kartu NFC menggunakan Next.js React. project ini dapat di kembangkan lebih lanjut untuk berbagai aplikasi seperti akses kontrol, id card, pertukaran data, dan penyimpanan data enkripsi.',
+        description: 'Project kartu NFC berbasis web untuk membaca dan menulis data pada kartu NFC menggunakan Next.js React. project ini dapat di kembangkan lebih lanjut untuk berbagai aplikasi seperti akses kontrol, id card, pertukaran data, dan penyimpanan data enkripsi.',
         repo: 'https://github.com/Faishal21ahmad/nfc-card-r-w.git',
         demo: 'https://nfc-rw.ixal.my.id',
         techIds: ['next', 'tailwind', 'docker', 'ngrok'],
         scopes: [
             'Implementasi NDEFReader Untuk Proses Baca & Tulis Kartu NFC',
             'Penulisan Dynamic Record Options',
-            '',
         ],
         fiturs: [
             'Baca NFC Card',
@@ -63,7 +62,7 @@ export const projectsData: projectsItem[] = [
         title: 'Lehati',
         category: 'Full Stack Laravel',
         year: 2025,
-        description: 'Web Project Lehati ( Lelang Hasil Tani ) aplikasi lelang hasil pertanian yang menghubungkan petani dan pembeli secara online. fitur web aplikasi lelang ini, explor produk, livebidding dan sistem pembayaran sederhana. yang di harapkan aplikasi ini untuk memudahkan petani untuk menjual hasil panen mereka dengan harga terbaik melalui proses lelang yang transparan dan efisien.',
+        description: 'Web Project Lehati ( Lelang Hasil Tani ) aplikasi lelang hasil pertanian yang menghubungkan petani dan pembeli secara online. fitur web aplikasi lelang ini, explore produk, livebidding dan sistem pembayaran sederhana. yang di harapkan aplikasi ini untuk memudahkan petani untuk menjual hasil panen mereka dengan harga terbaik melalui proses lelang yang transparan dan efisien.',
         repo: 'https://github.com/Faishal21ahmad/Lehati.git',
         demo: 'https://lehati.ixal.my.id',
         techIds: ['laravel', 'livewire', 'tailwind', 'mysql'],
@@ -151,7 +150,7 @@ export const projectsData: projectsItem[] = [
         description: 'Web Project ATS ( Asset Tracking System ) aplikasi manajemen inventaris untuk melacak, mengelola, dan memantau aset organisasi secara efisien fitur check-in/out, barcode/QR code, pelacakan lokasi, dan pemeliharaan untuk mengoptimalkan kontrol aset.',
         repo: 'https://github.com/Faishal21ahmad/atsdev.git',
         demo: 'https://ats.ixal.my.id',
-        techIds: ['laravel', 'livewire', 'tailwind'],
+        techIds: ['laravel', 'livewire', 'tailwind', 'mysql'],
         scopes: [
             'Dibangun dengan Laravel & TailwindCSS',
             'Perancangan Konsep alur, Desain, Database',
