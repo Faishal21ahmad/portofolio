@@ -8,7 +8,7 @@ export const projectsData: projectsItem[] = [
         year: 2025,
         description: 'Project kartu NFC berbasis web untuk membaca dan menulis data pada kartu NFC menggunakan Next.js React. project ini dapat di kembangkan lebih lanjut untuk berbagai aplikasi seperti akses kontrol, id card, pertukaran data, dan penyimpanan data enkripsi.',
         repo: 'https://github.com/Faishal21ahmad/nfc-card-r-w.git',
-        demo: 'https://nfc-rw.ixal.my.id',
+        demo: 'https://nfcrw.ixal.my.id',
         techIds: ['next', 'tailwind', 'docker', 'ngrok'],
         scopes: [
             'Implementasi NDEFReader Untuk Proses Baca & Tulis Kartu NFC',
