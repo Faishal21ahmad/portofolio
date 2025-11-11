@@ -1,8 +1,8 @@
-export interface keterampilanItem {
+export interface hardSkillItem {
     label: string
 }
 
-export const keterampilanData: keterampilanItem[] = [
+export const hardSkillData: hardSkillItem[] = [
     { label: 'HTML' },
     { label: 'CSS' },
     { label: 'JavaScript' },
@@ -18,6 +18,7 @@ export const keterampilanData: keterampilanItem[] = [
     { label: 'Flask' },
     { label: 'Web Dev' },
     { label: 'Linux' },
+    { label: 'SQL' },
     { label: 'Mikrotik' },
     { label: 'Network' },
     { label: 'Git' },

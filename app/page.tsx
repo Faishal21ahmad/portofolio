@@ -4,7 +4,9 @@ import Image from 'next/image';
 import { contactData } from '@/data/contactData';
 import { sertifikatData } from '@/data/sertifikatData';
 import { getAllProjects } from "@/lib/dataProjectsService";
-import { keterampilanData as keterampilan } from "@/data/keterampilanData";
+import { hardSkillData } from "@/data/hardSkillData";
+import { softSkillData } from "@/data/softSkillData";
+
 import Link from 'next/link'
 import H2 from "@/src/components/Elements/tag/H2";
 import H1 from "@/src/components/Elements/tag/H1";
@@ -13,7 +15,7 @@ import Section1 from "@/src/components/Fragments/Section/Section1";
 
 export default function Home() {
   const projects = getAllProjects({ showOnly: true });
-  
+
   return (
     <Wrap>
       <Section1 id="head" className="flex-row lg:flex w-full gap-4 mb-5 mt-10 border-b dark:border-gray-900 pb-8">
@@ -51,12 +53,7 @@ export default function Home() {
       </Section1>
       <Section1 id="tentang-saya">
         <H2>Tentang Saya</H2>
-        <p className="text-justify">lulusan S1 Sistem Informasi dengan keahlian dalam pengembangan web dan
-          pembelajaran mesin. memiliki pengalaman dalam menggunakan teknologi seperti Laravel, Tailwind,
-          Flask, dan Python, yang telah saya terapkan dalam berbagai proyek akademis. Dengan ketertarikan yang
-          kuat untuk mempelajari teknologi baru. memiliki komitmen untuk meingkatkan dan mengembangkan
-          keterampilan teknis saya serta beradaptasi dengan perkembangan industri yang terus berkembang. Saya siap
-          berkontribusi dalam pengembangan solusi berbasis teknologi melalui pendekatan yang inovatif dan efisien.
+        <p className="text-justify">Lulusan S1 Sistem Informasi dengan keahlian dalam pengembangan web dan infrastruktur. Berpengalaman menggunakan stack teknologi seperti Laravel, Tailwind, Flask, dan React, yang telah saya terapkan dalam berbagai proyek. Saya memiliki ketertarikan kuat untuk terus mempelajari teknologi terbaru serta komitmen untuk konsisten mengasah keterampilan teknis agar tetap adaptif dengan perkembangan industri, Siap berkontribusi dalam pengembangan solusi digital yang inovatif dan efisien.
         </p>
       </Section1>
       <Section1 id="pendidikan">
@@ -80,7 +77,7 @@ export default function Home() {
         </ul>
       </Section1>
       <Section1 id="project-list">
-        <H2>Project List</H2>
+        <H2>Pengalaman Project</H2>
         {projects.map((project, index) => (
           <div key={index} className="mb-3">
             <p><a target="_blank" href={project.demo || project.repo}
@@ -93,12 +90,20 @@ export default function Home() {
             </ul>
           </div>
         ))}
-        <Link href='/projects'><p className="p-2 mt-6 font-semi hover:bg-gray-300 hover:dark:bg-gray-900 rounded-md ">Project Lainnya ..... </p></Link>
+        <Link href='/projects'><p className="p-2 mt-6 font-semi bg-gray-300 dark:bg-gray-900 hover:bg-gray-400/40 hover:dark:bg-gray-800/40 rounded-md ">Project Lainnya ---▶ </p></Link>
       </Section1>
-      <Section1 id="keterampilan">
-        <H2>Keterampilan</H2>
+      <Section1 id="Skill">
+        <H2>Hard Skill</H2>
         <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 list-disc ml-6">
-          {keterampilan.map((item, index) => (
+          {hardSkillData.map((item, index) => (
+            <li key={index}>{item.label}</li>
+          ))}
+        </ul>
+      </Section1>
+      <Section1 id="Skill">
+        <H2>Soft Skill</H2>
+        <ul className="list-disc ml-6">
+          {softSkillData.map((item, index) => (
             <li key={index}>{item.label}</li>
           ))}
         </ul>

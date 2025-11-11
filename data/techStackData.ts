@@ -15,6 +15,7 @@ export const techStack: Tech[] = [
     { id: 'flask', label: 'Flask', icon: '/icons/flask.svg' },
     { id: 'react', label: 'React', icon: '/icons/react.svg' },
     { id: 'next', label: 'Next.js', icon: '/icons/nextjs.svg' },
+    { id: 'express', label: 'Express.js', icon: '/icons/expressjs.svg' },
     { id: 'tailwind', label: 'Tailwind CSS', icon: '/icons/tailwind.svg' },
     { id: 'node', label: 'Node.js', icon: '/icons/nodejs.svg' },
     { id: 'mongo', label: 'MongoDB', icon: '/icons/mongo.svg' },
@@ -26,5 +27,4 @@ export const techStack: Tech[] = [
     { id: 'ngrok', label: 'Ngrok', icon: '/icons/ngrok.svg' },
     { id: 'vite', label: 'Vite', icon: '/icons/vite.svg' },
     { id: 'typescript', label: 'TypeScript', icon: '/icons/typescript.svg' },
-    
 ]

@@ -67,7 +67,7 @@ export const projectsData: projectsItem[] = [
         demo: 'https://lehati.ixal.my.id',
         techIds: ['laravel', 'livewire', 'tailwind', 'mysql'],
         scopes: [
-            'Dibangun dengan Laravel, Livewire & TailwindCSS',
+            'Menerapan Framework Laravel, Livewire & TailwindCSS',
             'Implementasi perancangan konsep, desain, database',
             'Implementasi Sistem kelola Room, Produk & Pembayaran',
             'Implementasi Sistem konsep Lelang dengan Live Bidding',
@@ -152,9 +152,9 @@ export const projectsData: projectsItem[] = [
         demo: 'https://ats.ixal.my.id',
         techIds: ['laravel', 'livewire', 'tailwind', 'mysql'],
         scopes: [
-            'Dibangun dengan Laravel & TailwindCSS',
-            'Perancangan Konsep alur, Desain, Database',
-            'Implementasi Perancangan',
+            'Menerapan Framework Laravel & TailwindCSS',
+            'Merancangan Konsep alur, Desain, Database',
+            'Mengimplementasi Perancangan',
         ],
         fiturs: [
             'Kelola aset master/item asset ',
@@ -194,9 +194,9 @@ export const projectsData: projectsItem[] = [
         demo: 'https://vdn.ixal.my.id',
         techIds: ['laravel', 'tailwind', 'mysql'],
         scopes: [
-            'Perancangan Konsep, Desain, Database',
+            'Merancangan Konsep, Desain, Database',
             'Implementasi Perancangan',
-            'Penerapan Framwork Laravel, TailwindCSS',
+            'Menerapan Framwork Laravel, TailwindCSS',
         ],
         fiturs: [
             'Menambahkan video ke galery pribadi',
@@ -240,10 +240,10 @@ export const projectsData: projectsItem[] = [
         demo: '',
         techIds: ['python', 'flask', 'tailwind'],
         scopes: [
-            'Framework Flask dan TailwindCSS',
-            'Evaluasi Resampling Model Training',
-            'Banding kinerja resampling SMOTE dengan ADASYN',
-            'Uji Model Prediksi pada Algoritma SVM, NN, RF',
+            'Menerapan Framework Flask dan TailwindCSS',
+            'Melakukan evaluasi model training dengan metode resampling',
+            'Menganalisis kinerja resampling SMOTE dengan ADASYN',
+            'Melakukan uji prediksi pengguna pada model',
         ],
         fiturs: [
             'Evaluasi resampling model training',
@@ -276,7 +276,7 @@ export const projectsData: projectsItem[] = [
         demo: '',
         techIds: ['laravel', 'tailwind', 'flowbyte', 'mysql'],
         scopes: [
-            'Dibangun dengan Laravel & TailwindCSS',
+            'Menerapan Framework Laravel & TailwindCSS',
             'Mengembangkan alur pemesanan makanan melalui scan QR',
             'Membangun front-end Display Service untuk pelanggan',
             'Mengimplementasikan dashboard admin: pengelolaan menu, pesanan, meja, kategori, metode pembayaran, dan display service',

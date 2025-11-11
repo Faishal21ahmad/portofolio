@@ -41,6 +41,6 @@ export const contactData: ContactItem[] = [
     {
         label: 'CV',
         value: 'Download',
-        href: 'https://drive.google.com/file/d/1lcvE78lBljRuljzi-iUagZhpBtRU9FVt/view?usp=drive_link',
+        href: 'https://drive.google.com/file/d/16IPQUb-rDZBD9iAGZyCDBOxkyshZQVr_/view?usp=sharing',
     },
 ]
